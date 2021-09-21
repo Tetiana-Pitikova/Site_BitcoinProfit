@@ -1,0 +1,92 @@
+.about-header {
+    background-image: url(../About/img/about-header.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+.about-title {
+    text-shadow: 0 0 139.8px rgb(171 220 238 / 59%);
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    color: #d65000;
+}
+.about-half-1 {
+    background-image: url(../About/img/about-half-1.webp);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 100%;
+    padding: 60px 0;
+}
+.about-half-1-items, .about-half-3-items {
+    width: 60%;
+}
+.about-half-2 {
+    background-color: #f1f1f1;
+    background-image: url(../About/img/about-half-2.webp);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 15% 50%;
+    padding: 60px 0;
+}
+.about-half-2-items {
+    padding-left: 400px;
+}
+.about-half-3 {
+    background-image: url(../About/img/about-half-3.webp);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 100%;
+    padding: 60px 0;
+}
+.fs-28 {
+    font-size: 28px;
+    color: #777;
+}
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+@media (max-width: 768px) { 
+    .about-half-2-items {
+        padding-left: 220px;
+    }
+    .about-half-3 {
+        padding: 0px 0;
+    }
+}
+@media (max-width: 576px) {
+    .about-header {
+        padding: 20px 0;
+    }
+    .about-title {
+        font-size: 36px;
+    }
+    .about-half-1-items, .about-half-3-items {
+        width: 100%;
+    }
+    .about-half-1 {
+        padding-top: 30px;
+        padding-bottom: 240px;
+        background-size: 320px;
+        background-position: bottom;
+    }
+    .about-half-2-items {
+        padding-left: 0px;
+    }
+    .about-half-2 {
+        padding-top: 30px;
+        padding-bottom: 220px;
+        background-size: 250px;
+        background-position: bottom;
+    }
+    .about-half-3 {
+        padding-top: 30px;
+        padding-bottom: 230px;
+        background-size: 320px;
+        background-position: bottom;
+    }
+}
+@media (max-width: 320px) {
+   
+}
