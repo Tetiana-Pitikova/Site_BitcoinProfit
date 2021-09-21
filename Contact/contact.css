@@ -1,0 +1,30 @@
+input {
+    height: 56px;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 40px;
+}
+textarea {
+    height: 200px;
+    width: 100%;
+    border-radius: 7px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    font-size: 20px;
+}
+.input-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+.input-wrapper img {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
